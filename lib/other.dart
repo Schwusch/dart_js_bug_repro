@@ -2,7 +2,7 @@
 library web_usb;
 
 import 'package:js/js.dart';
-import 'dart:js_util';
+import 'package:js/js_util.dart';
 
 @JS('navigator.usb')
 external Usb? get usb;
